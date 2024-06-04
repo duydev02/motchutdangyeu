@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mot chut dang yeu</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./images/kitty.png" />
+</head>
+
+<body bgcolor="black" , align="center">
+    <div class="container">
+        <div class="image-container">
+            <img class="d-none" id="qualityImage" src="./images/144p.png" alt="Video Quality">
+        </div>
+        <h1 id="h1-title">Chọn chất lượng video</h1>
+        <select id="qualitySelect" onchange="showNextOption(this)" aria-label="Chọn chất lượng video">
+            <option value="">Select quality</option>
+            <option value="144p">144p</option>
+            <option value="240p" class="hidden">240p</option>
+            <option value="480p" class="hidden">480p</option>
+            <option value="720p" class="hidden">720p</option>
+            <option value="1080p" class="hidden">1080p</option>
+        </select>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
